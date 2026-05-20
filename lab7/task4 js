@@ -1,0 +1,13 @@
+function hesablaFaktorial(n) {
+    let hasil = 1;
+    for (let i = 1; i <= n; i++) {
+        hasil *= i;
+    }
+    return hasil;
+}
+
+let eded = 8;
+let cavab = hesablaFaktorial(eded);
+
+console.log("Tapşırıq 4 Nəticəsi:");
+console.log(eded + "! = " + cavab);
