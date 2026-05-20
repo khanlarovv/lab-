@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <title>Tapşırıq 3 - Sayğac</title>
+    <link rel="stylesheet" href="lab7task3.css">
+</head>
+<body>
+    <div class="saygac-box">
+        <h3>Sayğac</h3>
+        <h1 id="gosterici">0</h1>
+        <button id="artirBtn">Artır</button>
+        <button id="azaltBtn">Azalt</button>
+    </div>
+    <script src="lab7task3.js"></script>
+</body>
+</html>
