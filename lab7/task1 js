@@ -1,0 +1,13 @@
+const metnInput = document.getElementById("metnInput");
+const gosterBtn = document.getElementById("gosterBtn");
+const neticeP = document.getElementById("neticeP");
+
+gosterBtn.addEventListener("click", function() {
+    let daxilEdilenMetn = metnInput.value;
+    
+    if (daxilEdilenMetn === "") {
+        neticeP.textContent = "Zəhmət olmasa mətn daxil edin.";
+    } else {
+        neticeP.textContent = daxilEdilenMetn;
+    }
+});
