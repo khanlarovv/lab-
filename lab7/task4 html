@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <title>Tapşırıq 4 - Faktorial</title>
+    <link rel="stylesheet" href="lab7task4.css">
+</head>
+<body>
+    <h3>Faktorial Hesablanması (8!)</h3>
+    <p>Nəticəni görmək üçün brauzerin Console (Konsol) hissəsinə baxın.</p>
+    
+    <script src="lab7task4.js"></script>
+</body>
+</html>
