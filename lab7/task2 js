@@ -1,0 +1,15 @@
+const eded1 = document.getElementById("eded1");
+const eded2 = document.getElementById("eded2");
+const toplaBtn = document.getElementById("toplaBtn");
+const cixBtn = document.getElementById("cixBtn");
+const kalkNetice = document.getElementById("kalkNetice");
+
+toplaBtn.addEventListener("click", function() {
+    let netice = Number(eded1.value) + Number(eded2.value);
+    kalkNetice.textContent = "Nəticə: " + netice;
+});
+
+cixBtn.addEventListener("click", function() {
+    let netice = Number(eded1.value) - Number(eded2.value);
+    kalkNetice.textContent = "Nəticə: " + netice;
+});
