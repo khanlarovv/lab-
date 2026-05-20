@@ -1,0 +1,16 @@
+
+let say = 0;
+
+const gosterici = document.getElementById("gosterici");
+const artirBtn = document.getElementById("artirBtn");
+const azaltBtn = document.getElementById("azaltBtn");
+
+artirBtn.addEventListener("click", function() {
+    say++;
+    gosterici.textContent = say;
+});
+
+azaltBtn.addEventListener("click", function() {
+    say--;
+    gosterici.textContent = say;
+});
