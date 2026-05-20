@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <title>Tapşırıq 2 - Kalkulyator</title>
+    <link rel="stylesheet" href="lab7task2.css">
+</head>
+<body>
+    <div class="kalkulyator">
+        <h3>Sadə Kalkulyator</h3>
+        <input type="number" id="eded1" placeholder="Birinci ədəd">
+        <input type="number" id="eded2" placeholder="İkinci ədəd">
+        <div class="duymeler">
+            <button id="toplaBtn">+</button>
+            <button id="cixBtn">-</button>
+        </div>
+        <p id="kalkNetice">Nəticə: 0</p>
+    </div>
+    <script src="lab7task2.js"></script>
+</body>
+</html>
