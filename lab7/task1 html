@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <title>Tapşırıq 1</title>
+    <link rel="stylesheet" href="lab7task1.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Mətni ekranda göstərmək</h3>
+        <input type="text" id="metnInput" placeholder="Mətni daxil edin">
+        <button id="gosterBtn">Göstər</button>
+        <p id="neticeP">Yazılan mətn burada görünəcək.</p>
+    </div>
+    <script src="lab7task1.js"></script>
+</body>
+</html>
